@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family:'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #343a40; /* Color de texto principal */
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+/* Contenedor de imagen */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que la imagen no desborde */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos del contenido */
+.content {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 0 10px; /* Márgenes laterales */
+}
+
+h2, h3, h4 {
+   font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    font-size: 24px; /* Tamaño de letra para h2 */
+    color: #4682B4;
+	
+    margin-bottom: 10px; /* Espaciado debajo de h2 */  /* Color de encabezados */
+    
+}
+
+ul {
+    list-style-type: disc; /* Estilo de lista */
+    padding-left: 20px; /* Sangría a la izquierda */
+}
+
+/* Botón */
+.button-container {
+    text-align: center;
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.button-container .btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+.button-container .btn:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #007bff; /* Color de fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+footer li {
+    margin-bottom: 5px; /* Espaciado entre elementos de la lista */
+}

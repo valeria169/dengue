@@ -1,0 +1,72 @@
+
+* { /* estilos globales - aplica los estilos a TODOS LOS ELEMENTOS DE LA PAG */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /*estilos del cuerpo */
+    font-family: 'Arial', sans-serif; /* tipo de letra (fuente)*/
+    background-color: #f4f4f4; /* estable un color */
+    color: #333; /* define el color del texto*/
+    line-height: 1.6; /*aumenta el espacio vertical entre las lineas del texto*/
+}
+
+/* Barra de navegación (header) */
+.navbar {
+    background-color:#4682B4 ; /*establece color de fondo */
+    padding: 20px; /* agrega espacio interno alrededor del contenido*/
+    text-align: center; /* centra el texto */
+    color: white;
+    margin-bottom: 20px; /*agrega un espacio inferior de 20px, separando la barra del resto del contneido */
+}
+
+.navbar h1 {
+    margin: 0; /* elimina cualquier margen alrededor del titulo*/
+    font-size: 2.5rem; /* hace que el titulo sea grande */
+}
+
+/* Estilos del formulario */
+.form-container {
+    max-width: 600px; /* el ancho del contenedor*/
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /* hace que las esquinas del form sean redondas*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* aplica una sombra alrededor del form*/
+}
+
+/*grupos de campo */
+.form-group { /*define espacio entre cada grupo del form */
+    margin-bottom: 20px;
+}
+
+.form-group label { /*estilos para las etiquetas */
+    display: block; /*hace que la etiqueta ocupe toda la linea  */
+    margin-bottom: 5px;
+    font-weight: bold; /* hace que el texto este en negrita*/
+}
+
+.form-group input, .form-group select { /* estilos compartidos para los campos de entrada y los desplegables*/
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button { /*estilos boton de envio */
+    padding: 12px 20px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* cambia el cursor a un icono de mano cuando pasa por el boton*/
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}

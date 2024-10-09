@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Vacunación</title>
+    <link rel="stylesheet" href="styles-form.css"> <!-- Carga la hoja de estilos específica para el formulario -->
+</head>
+<body>
+    <!-- Barra con el título centrado -->
+    <header class="navbar">
+        <h1>Formulario de Vacunación</h1>
+    </header>
+
+    <!-- Formulario de vacunación -->
+    <main class="form-container">
+        <form action="#" method="post"> <!--formulario -->
+            <div class="form-group">
+                <label for="nombre">Nombre:</label> <!-- campos del formulario-->
+                <input type="text" id="nombre" name="nombre" required> <!-- input significa entrada-->
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" required>
+            </div>
+            <div class="form-group">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+            </div>
+            <div class="form-group">
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" id="domicilio" name="domicilio" required>
+            </div>
+            <div class="form-group">
+                <label for="vacunas">¿Ha recibido otras vacunas?</label>
+                <select id="vacunas" name="vacunas" required> <!--select es un menu desplegable para seleccionar una opcion  -->
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit-button">Enviar</button> <!--boton de envio del formulario  -->
+            </div>
+        </form>
+    </main>
+</body>
+</html>
+
+  
